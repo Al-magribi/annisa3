@@ -1,0 +1,41 @@
+table.greenTable {
+  font-family: Georgia, serif;
+  border: 6px solid #24943a;
+  background-color: #d4eed1;
+  width: 100%;
+  text-align: center;
+}
+table.greenTable td,
+table.greenTable th {
+  border: 1px solid #24943a;
+  padding: 3px 2px;
+}
+table.greenTable tbody td {
+  font-size: 13px;
+}
+table.greenTable thead {
+  background: #24943a;
+  background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943a 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #5baf6b 0%,
+    #3a9e4d 66%,
+    #24943a 100%
+  );
+  background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #24943a 100%);
+  border-bottom: 0px solid #444444;
+}
+table.greenTable thead th {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f0f0f0;
+  text-align: center;
+  border-left: 2px solid #24943a;
+}
+table.greenTable thead th:first-child {
+  border-left: none;
+}
+
+table.greenTable tfoot td {
+  font-size: 13px;
+}

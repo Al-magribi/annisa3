@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.datepicker-input {
+  background-color: #3455ac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: default;
+}
+
+.datepicker-input:hover {
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.draggable-button {
+  position: absolute;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s;
+}
+
+.draggable-button.dragging {
+  transform: scale(1.1);
+}
